@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from utils import PDFS_PATH, createFolderIfNotExists, download_pdf
 
+# url base
 BASE_URL = "https://acervo.fuvest.br/fuvest/"
 createFolderIfNotExists(PDFS_PATH)
 

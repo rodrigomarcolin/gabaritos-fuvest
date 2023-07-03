@@ -3,6 +3,7 @@ import os,sys
 import csv
 from utils import CSV_PATH, PARENT_PATH
 
+# Classe databse
 class Database:
     def __init__(self, name):
         self.con = sql.connect(os.path.join(PARENT_PATH, name))
