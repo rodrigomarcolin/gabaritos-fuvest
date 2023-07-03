@@ -1,2 +1,2 @@
 # gabaritos-fuvest
-Projeto de raspagem de dados: Gabaritos da FUVEST.
+Projeto de raspagem de dados: Gabaritos da FUVEST. Feito com python.
