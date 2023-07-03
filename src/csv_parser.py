@@ -5,6 +5,7 @@ import os
 
 db = Database('data.db')
 
+# Esse código me dá dor de cabeça
 for folder in os.listdir(CSV_PATH):
     ano = int(folder)
     for file in os.listdir(os.path.join(CSV_PATH, folder)):
