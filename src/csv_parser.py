@@ -3,6 +3,7 @@ from utils import CSV_PATH
 from database import Database
 import os
 
+# Inicializando banco de dados
 db = Database('data.db')
 
 # Esse código me dá dor de cabeça
